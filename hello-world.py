@@ -11,7 +11,7 @@ class NetBoxTestScript1(Script):
     def run(self, data, commit):
         self.log_info("Running Test Script")
         self.log_success("This is a success message")
-	self.log_success("This is a success message - 1")
+        self.log_success("This is a success message - 1")
         self.log_failure("This is a failure message")
         self.log_warning("This is a warning message")
         self.log_debug("This is a debug message")
