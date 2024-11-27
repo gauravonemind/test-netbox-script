@@ -3,9 +3,9 @@ from django.utils.safestring import mark_safe
 from extras.scripts import Script
 
 
-class NetBoxTestScript(Script):
+class NetBoxTestScript1(Script):
     class Meta:
-        name = "Test Script"
+        name = "Test Script1"
         description = "Print logs for testing purposes."
 
     def run(self, data, commit):
